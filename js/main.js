@@ -76,7 +76,7 @@ class GameApp {
         const game = await response.json();
 
         this.detailBoxElement.innerHTML = `
-            <div class="card text-white bg-dark mt-5 w-100 max-600 mx-auto  d-flex align-items-center justify-content-center z-3 ">
+            <div class="card text-white bg-dark mt-5 w-100 max-600 mx-auto  d-flex align-items-center justify-content-center z-3  sticky-top">
              
           
                         <img src="${game.thumbnail}" class=" rounded-start w-100" alt="${game.title}">
